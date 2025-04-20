@@ -31,7 +31,8 @@ class AssociatedTargetsHandler(BaseHandler):
         try:
             rows = data["data"]["disease"]["associatedTargets"]["rows"]
             table_rows = [[r["target"]["approvedSymbol"], r["target"]["id"], round(r["score"], 3)] for r in rows]
-            headers = ["Symbol", "Target ID", "Score"]
+            # Add ANSI escape codes for green headers
+            headers = ["\033[92mSymbol\033[0m", "\033[92mTarget ID\033[0m", "\033[92mScore\033[0m"]
             return table_rows, headers
         except Exception as e:
             raise ValueError(f"Failed to parse response: {e}")
