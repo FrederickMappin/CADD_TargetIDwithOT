@@ -5,7 +5,7 @@ Target identification is a critical first step in Computer-Aided Drug Design (CA
 Open Targets is a collaborative platform that integrates data from genomics, transcriptomics, clinical studies, and other sources to help researchers systematically identify and prioritize potential drug targets. It provides a robust, data-driven framework to explore the association between targets and diseases, making it a valuable resource for early-stage drug discovery.
 
 
-# Usage 
+## Usage 
 Investiage a Ensembl gene ID (ENSG00000134086) for gene or Experimental Factor Ontology(EFO_0000349) for diseases.
 
 ```python -m opentarget --help``` 
