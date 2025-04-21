@@ -3,7 +3,7 @@ Target identification is a critical first step in Computer-Aided Drug Design (CA
 
 
 ## Usage 
-Investiage a Ensembl gene ID (ENSG00000134086) for gene or Experimental Factor Ontology(EFO_0000349) for diseases.
+Investigate a Ensembl gene ID (ENSG00000134086) for gene or Experimental Factor Ontology(EFO_0000349) for diseases.
 
 ```python -m opentarget --help``` 
 ```
