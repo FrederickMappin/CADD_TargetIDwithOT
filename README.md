@@ -6,6 +6,9 @@ Open Targets is a collaborative platform that integrates data from genomics, tra
 
 
 # Usage 
+Investiage a Ensembl gene ID (ENSG00000134086) for gene or Experimental Factor Ontology(EFO_0000349) for diseases.
+
+```python -m opentarget --help``` 
 ```
 Usage: python -m opentarget <ID> <request_type>
 
@@ -19,3 +22,6 @@ Valid request types and their descriptions:
   associated_diseases: Find diseases and phenotypes associated with a specific target
   target_disease_evidence: Explore evidence that supports a specific target-disease association
 ```
+Ensembl gene ID (ENSG00000134086) for gene or Experimental Factor Ontology(EFO_0000349) for diseases.
+
+
