@@ -6,7 +6,7 @@ Open Targets is a collaborative platform that integrates data from genomics, tra
 
 
 # Usage 
-"""
+```
 Usage: python -m opentarget <ID> <request_type>
 
 Examples:
@@ -18,4 +18,4 @@ Valid request types and their descriptions:
   associated_targets: Find targets associated with a specific disease or phenotype
   associated_diseases: Find diseases and phenotypes associated with a specific target
   target_disease_evidence: Explore evidence that supports a specific target-disease association
-"""
+```
