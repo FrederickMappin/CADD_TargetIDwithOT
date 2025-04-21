@@ -21,11 +21,10 @@ Valid request types and their descriptions:
 ```
 
 ## Project Portion Section 
-In this project, we utilize the OpenTargets CLI to perform target identification and disease association analysis using curated biological datasets. Our focus is on demonstrating how the OpenTargets platform can be employed programmatically to retrieve relevant information about genes and diseases, a critical step in streamlining early-stage drug discovery.
+In this section, I demonstrate the practical application of the tool within a real-world project scenario.
 
 ### Objective 
-
-
+ Utilize the OpenTargets CLI to perform target identification and disease association analysis using curated biological datasets. Our focus is on demonstrating how the OpenTargets platform can be employed programmatically to retrieve relevant information about genes and diseases, a critical step in streamlining early-stage drug discovery.
 ### Methodology
 
 
